@@ -10,7 +10,7 @@ services:
     environment:
       ACCEPT_EULA: "Y"
       POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "Admin@1433"
+      POSTGRES_PASSWORD: "pass_dba"
     volumes:
       - type: "bind"
         source: "~/.postgres-docker"
