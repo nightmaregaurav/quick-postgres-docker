@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:alpine
+    image: "postgres:alpine"
     container_name: "postgres"
     hostname: "postgres"
     user: "root"
